@@ -3,6 +3,7 @@ const dobrasSelect = document.getElementById("dobras");
 const dobrasInput = document.getElementById('dobras-inputs');
 
 
+
 const seteDobras = ["Peitoral", "Abdominal", "Coxa", "triceps", "Subscapular", "Axilar Media", "Supra Iliaca"]
 const fem3 = ["Coxa", "Triceps", "Supra Iliaca"]
 
@@ -84,3 +85,4 @@ function atualizaDobras(sexo, dobras) {
 
 sexoSelect.addEventListener("change", verificaSelect);
 dobrasSelect.addEventListener("change", verificaSelect);
+
